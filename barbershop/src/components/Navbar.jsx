@@ -6,6 +6,9 @@ function Navbar() {
     const navigate = useNavigate();
     const navigateHome = ()=>{
         navigate('/');
+    };
+    const navigateBooking = () =>{
+        navigate('/booking')
     }
   return (
     <nav className="navbar container">
